@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft Resources Link Hub!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="floating-shapes">
+        <div class="shape" style="width: 100px; height: 100px; background: rgba(255,255,255,0.1); border-radius: 50%;"></div>
+        <div class="shape" style="width: 150px; height: 150px; background: rgba(255,255,255,0.1); border-radius: 20px;"></div>
+        <div class="shape" style="width: 80px; height: 80px; background: rgba(255,255,255,0.1); clip-path: polygon(50% 0%, 0% 100%, 100% 100%);"></div>
+    </div>
+
+    <div class="container">
+        <div class="header">
+            <h1>All Official Microsoft Resources</h1>
+            <p>Your comprehensive hub for Microsoft services, tools, and learning resources</p>
+        </div>
+
+        <div class="search-container">
+            <input type="text" class="search-box" placeholder="Search Microsoft resources..." id="searchInput">
+        </div>
+
+        <div class="categories">
+            <div class="category-filter active" data-category="all">All Resources</div>
+            <div class="category-filter" data-category="learning">Learning</div>
+            <div class="category-filter" data-category="development">Development</div>
+            <div class="category-filter" data-category="cloud">Cloud & Azure</div>
+            <div class="category-filter" data-category="community">Community</div>
+        </div>
+
+        <div class="stats-section">
+            <div class="stat-item">
+                <span class="stat-number" id="resourceCount">14</span>
+                <span class="stat-label">Resources Available</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">🤖</span>
+                <span class="stat-label">Try to Explore</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">👀</span>
+                <span class="stat-label">Available 24/7</span>
+            </div>
+        </div>
+
+        <div class="resources-grid" id="resourcesGrid">
+            <!-- Resources will be populated by JavaScript -->
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-top">
+                <h2>Made with ❤️ by Rishikesh.</h2>
+                <!-- <p>Your one-stop hub for all Microsoft tools, services, and community support.</p> -->
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/rishikesh-raj-b68642250/" target="_blank" class="social-link" title="Microsoft Twitter">😒</a>
+                    <a href="https://github.com/Rishikesh-001" target="_blank" class="social-link" title="Microsoft LinkedIn">😩</a>
+                    <a href="https://x.com/Rishikesh1136" target="_blank" class="social-link" title="Microsoft YouTube">😎</a>
+                    <a href="https://discord.com/users/puku.01" target="_blank" class="social-link" title="Microsoft Facebook">😪</a>
+                    <a href="https://instagram.com/_raj_rishikesh" target="_blank"class="social-link" title="Microsoft Instagram">🥴</a>
+                </div>
+                
+                <div class="footer-info">
+                    <span>© 2025 Microsoft Corporation</span>
+                    <span>I 💙 Microsoft </span>
+                    <span>⚡ Exploring Microsoft</span>
+                    <!-- <span>🔒 Your privacy matters</span> -->
+                </div>
+                
+                <p style="margin-top: 1rem; opacity: 0.7; font-size: 0.8rem;">
+                    This unofficial resource hub helps you discover and access official Microsoft services. 
+                    All links direct to official Microsoft domains and services.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
