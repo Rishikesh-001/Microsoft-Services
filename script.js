@@ -65,7 +65,7 @@ const resources = [
             {
                 title: "Microsoft Reactor",
                 description: "Community spaces for developers, startups, and tech enthusiasts to learn, connect, and build together.",
-                url: "https://reactor.microsoft.com/?WT.mc_id=academic&wt.mc_id=studentamb_465512",
+                url: "https://reactor.microsoft.com/",
                 icon: "🚀",
                 category: "community"
             },
